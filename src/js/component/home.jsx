@@ -97,7 +97,7 @@ const Home = () => {
                 {tasks.length > 0 ? (
                     <>
                         <span>{tasks.length} item{tasks.length > 1 ? "s" : ""} left</span>
-                        <button className="clear-button" onClick={}>
+                        <button className="clear-button" onClick={handleClearTasks}>
                             Clear All
                         </button>
                     </>
